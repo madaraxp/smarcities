@@ -53,6 +53,19 @@ public class Membro {
 		super();
 	}
 
+	public Membro(String nome, String nomeSocial, String cpf, String cpfEmissor, String cpfUf, String rg,
+			LocalDate dtNascimento, char responsavel) {
+		super();
+		this.nome = nome;
+		this.nomeSocial = nomeSocial;
+		this.cpf = cpf;
+		this.cpfEmissor = cpfEmissor;
+		this.cpfUf = cpfUf;
+		this.rg = rg;
+		this.dtNascimento = dtNascimento;
+		this.responsavel = responsavel;
+	}
+
 	public Membro(Integer id, String nome, String nomeSocial, String cpf, String cpfEmissor, String cpfUf, String rg,
 			LocalDate dtNascimento, char responsavel) {
 		super();

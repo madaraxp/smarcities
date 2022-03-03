@@ -30,6 +30,11 @@ public class Sexo {
 		super();
 	}
 
+	public Sexo(String identificacao) {
+		super();
+		this.identificacao = identificacao;
+	}
+
 	public Sexo(Integer id, String identificacao) {
 		super();
 		this.id = id;

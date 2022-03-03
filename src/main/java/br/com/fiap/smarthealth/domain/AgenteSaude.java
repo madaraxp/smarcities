@@ -51,6 +51,19 @@ public class AgenteSaude {
 	}
 
 	
+	public AgenteSaude(String nome, String cpf, String cpfEmissor, String cpfUf, String telefone,
+			LocalDate dtNascimento, String cns) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.cpfEmissor = cpfEmissor;
+		this.cpfUf = cpfUf;
+		this.telefone = telefone;
+		this.dtNascimento = dtNascimento;
+		this.cns = cns;
+	}
+
+
 	public AgenteSaude(Integer id, String nome, String cpf, String cpfEmissor, String cpfUf, String telefone,
 			LocalDate dtNascimento, String cns) {
 		super();

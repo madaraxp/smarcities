@@ -30,11 +30,19 @@ public class Especialidade {
 		super();
 	}
 
+	
+	public Especialidade(String tipo) {
+		super();
+		this.tipo = tipo;
+	}
+
+
 	public Especialidade(Integer id, String tipo) {
 		super();
 		this.id = id;
 		this.tipo = tipo;
 	}
+	
 	
 	//Getters e Setters
 

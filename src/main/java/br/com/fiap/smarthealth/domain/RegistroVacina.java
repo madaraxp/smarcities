@@ -38,6 +38,13 @@ public class RegistroVacina {
 		super();
 	}
 
+	public RegistroVacina(String nome, LocalDate data, LocalDate vencimento) {
+		super();
+		this.nome = nome;
+		this.data = data;
+		this.vencimento = vencimento;
+	}
+
 	public RegistroVacina(Integer id, String nome, LocalDate data, LocalDate vencimento) {
 		super();
 		this.id = id;

@@ -57,6 +57,22 @@ public class Medico {
 	public Medico() {
 		super();
 	}
+	
+
+	public Medico(String nome, String cpf, String cpfEmissor, String cpfUf, String cpnj, String crm, String crmUf,
+			String telefone, LocalDate dtNascimento) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.cpfEmissor = cpfEmissor;
+		this.cpfUf = cpfUf;
+		this.cpnj = cpnj;
+		this.crm = crm;
+		this.crmUf = crmUf;
+		this.telefone = telefone;
+		this.dtNascimento = dtNascimento;
+	}
+
 
 	public Medico(Integer id, String nome, String cpf, String cpfEmissor, String cpfUf, String cpnj, String crm,
 			String crmUf, String telefone, LocalDate dtNascimento) {

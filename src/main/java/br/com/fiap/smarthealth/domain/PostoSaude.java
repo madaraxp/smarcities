@@ -54,6 +54,20 @@ public class PostoSaude {
 		super();
 	}
 
+	public PostoSaude(String nome, String cnpj, String cep, String endereço, String complemento, String bairro,
+			String telefone, String email, String horario) {
+		super();
+		this.nome = nome;
+		this.cnpj = cnpj;
+		this.cep = cep;
+		this.endereço = endereço;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.telefone = telefone;
+		this.email = email;
+		this.horario = horario;
+	}
+
 	public PostoSaude(Integer id, String nome, String cnpj, String cep, String endereço, String complemento,
 			String bairro, String telefone, String email, String horario) {
 		super();

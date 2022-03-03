@@ -50,6 +50,21 @@ public class Familia {
 	public Familia() {
 		super();
 	}
+	
+
+	public Familia(String sobrenome, String cns, String cep, String endereco, String complemento, String bairro,
+			String telefone, String email) {
+		super();
+		this.sobrenome = sobrenome;
+		this.cns = cns;
+		this.cep = cep;
+		this.endereco = endereco;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.telefone = telefone;
+		this.email = email;
+	}
+
 
 	public Familia(Integer id, String sobrenome, String cns, String cep, String endereco, String complemento,
 			String bairro, String telefone, String email) {
